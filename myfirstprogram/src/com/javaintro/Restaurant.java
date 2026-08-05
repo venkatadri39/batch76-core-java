@@ -22,6 +22,7 @@ public class Restaurant {
  }
  static void  changerestaurntName ()  {
 	 restaurntName = "redbucket";
+	 System.out.println("restarunt name is changed succesfully");
  }
   static void displayRestaurntName() {
 	 System.out.println("restaurntName : " + restaurntName );
@@ -37,14 +38,21 @@ public class Restaurant {
 	 r2.tableNumber =2;
 	 r2.seats = 4;
 	 r2.reserved  = false;
+	 Restaurant.displayRestaurntName();
+	 
+	
+	
+	 
 	 System.out.println("before changes");
 	r1. displaytableDetails();
     r2. displaytableDetails();
 	 r1. reserveTable();
 	 r2.cancelReservation();
+	 Restaurant.changerestaurntName();
+	 
 	 System.out.println("after change");
-	 changerestaurntName();
-	   displayRestaurntName();
+	
+	  
 	    r1. displaytableDetails();
 	    r2. displaytableDetails();
  }
