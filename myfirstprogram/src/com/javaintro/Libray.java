@@ -55,7 +55,7 @@ package com.javaintro;
 	        lib1.issueBook();
 	        lib2.issueBook();
 
-	        changeLibrarian();
+	      Libray.changeLibrarian();
 
 	        System.out.println("\nLibrary Details");
 	        displayLibraryDetails();
@@ -68,7 +68,6 @@ package com.javaintro;
 	
 		
 	}
-	a
 	}
 
-}
+
